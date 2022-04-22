@@ -1,8 +1,7 @@
 let fahrenheit = 80;
-let celsius; 
 
-function convertFahrenheitToCelsius(fahrenheit, celsius) {
+function convertFahrenheitToCelsius(fahrenheit) {
     return (fahrenheit -32) * 0.5556;
 }
-console.log(convertFahrenheitToCelsius(fahrenheit, celsius).toFixed(2));
+console.log(convertFahrenheitToCelsius(fahrenheit).toFixed(2));
 
